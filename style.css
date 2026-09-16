@@ -76,7 +76,8 @@ h2{font:400 clamp(2rem,5vw,2.6rem)/1.15 var(--serif);letter-spacing:-.035em;marg
  .chapter-heading{padding:29px 22px 8px}h1{font-size:clamp(2rem,6.5vw,3rem)}.chapter-subtitle{font-size:.9375rem;max-width:470px}
  .scene{padding:0 12px}.canvas{width:100%;aspect-ratio:auto}.scene-art{aspect-ratio:3/2;height:auto}
  .hotspots{position:relative;display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:0 8px;margin-top:-4px}
- .hotspot{position:static;transform:none;font-size:.875rem;padding:10px 13px;white-space:normal;min-height:44px}.hotspot::before{display:none}.hotspot:hover{transform:none}
+ .hotspot{position:static;transform:none;font-size:.875rem;padding:10px 13px;white-space:normal;min-height:44px;max-width:164px;text-align:center}.hotspot::before{display:none}.hotspot:hover{transform:none}
+ dialog{width:calc(100% - 24px);max-width:390px;max-height:calc(100svh - 24px)}.memory-sheet{padding:24px 22px}
  figcaption{margin:14px 0 22px;font-size:.8125rem}
  .journey-footer{width:88%;padding-top:12px}.chapter-nav{gap:10px;justify-content:space-between;flex-wrap:wrap;padding:12px 0}
  .chapter-nav a{font-size:.8125rem;min-height:42px;display:flex;align-items:center}.chapter-number{display:none}
